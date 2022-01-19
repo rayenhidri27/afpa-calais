@@ -1,0 +1,46 @@
+.slide img {
+	height: 600px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card img {
+	height: 270px;
+	max-height: 270px;
+}
+
+.progress-large {
+	height: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.chiffres {
+	background-image: url(../images/chiffres.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.translucide {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.chiffres,
+.translucide,
+.translucide .row {
+	min-height: 200px;
+}
+
+.clients img {
+	height: 140px;
+}
+
+footer {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-position: center;
+}
